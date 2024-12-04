@@ -2,17 +2,11 @@
 
 Gives your Laravel chatbot the ability to try your chatbot in your local terminal.
 
+> Originally built by Marcel Pociot, this version was optimized to work for Laravel 9, 10 and 11+.
+
 ## Installation
 
-Run `composer require botman/tinker` to install the composer dependencies.
-
-Then in your `config/app.php` add
-
-```php
-BotMan\Tinker\TinkerServiceProvider::class,
-```
-
-to the `providers` array.
+Run `composer require prevailexcel/botman-tinker` to install the composer dependencies.
 
 ## Usage
 
